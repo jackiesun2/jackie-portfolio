@@ -5,10 +5,8 @@
   list-style-type: none;
   margin: 0px;
   padding: 0px;
-}
-
-.main-nav {
-  /* height: 5vh; */
+  height: 5vh;
+  background-color: black;
 }
 
 li {
@@ -36,6 +34,11 @@ a {
   margin-top: 10px;
 }
 
+.hamburger-links a {
+  color: black;
+  z-index: 5;
+}
+
 .hamburger-links {
   display: none;
   position: fixed;
@@ -50,8 +53,9 @@ a {
   }
   .hamburger {
     display: block;
+    z-index: 3;
   }
 }
 
-.hamburger:active {
-}
+/* .hamburger:active {
+} */
