@@ -1,0 +1,43 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  margin: 0px;
+  background-image: url(../images/beach-background2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 220px;
+  margin-left: 20px;
+}
+
+.main-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30;
+  font-weight: 400;
+  margin: 0px;
+  justify-self: center;
+  padding-bottom: 150px;
+  margin-left: 20px;
+}
+
+/* .main-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(228, 227, 227, 0.801);
+  opacity: 0;
+  z-index: 100;
+} */
+
+/* .main-container {
+  position: relative;
+} */
