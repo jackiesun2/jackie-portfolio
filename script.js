@@ -5,10 +5,10 @@ hamburger.addEventListener("click", function () {
   hamburger.classList.toggle("is-active");
   const isActive = hamburger.classList.contains("is-active");
   if (isActive) {
-    links.style.display = "block";
     backgroundSlider.style.display = "block";
+    links.style.display = "flex";
   } else {
-    links.style.display = "none";
     backgroundSlider.style.display = "none";
+    links.style.display = "none";
   }
 });

@@ -6,7 +6,11 @@
   margin: 0px;
   padding: 0px;
   height: 5vh;
-  background-color: black;
+}
+
+nav {
+  position: fixed;
+  z-index: 2;
 }
 
 li {
@@ -34,28 +38,38 @@ a {
   margin-top: 10px;
 }
 
+.hamburger-links {
+  position: fixed;
+  display: none;
+}
+
 .hamburger-links a {
   color: black;
-  z-index: 5;
+  font-family: "Montserrat", sans-serif;
 }
 
-.hamburger-links {
-  display: none;
-  position: fixed;
-  top: 10vh;
-  z-index: 2;
-  width: 100vw;
+.hamburger-link-items {
+  margin-top: 20px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .nav-items {
     display: none;
   }
+  nav {
+    position: initial;
+  }
   .hamburger {
     display: block;
+    margin-left: 0px;
     z-index: 3;
   }
+  .hamburger-links {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    top: 10vh;
+    z-index: 4;
+    width: 100vw;
+  }
 }
-
-/* .hamburger:active {
-} */
