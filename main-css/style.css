@@ -1,0 +1,12 @@
+/* main pages*/
+@import "../main-css/blog.css";
+@import "../main-css/work.css";
+@import "../main-css/contact.css";
+@import "../main-css/about.css";
+@import "../main-css/global.css";
+@import "../main-css/main.css";
+/* components  */
+@import "../components/hamburger.css";
+@import "../components/nav.css";
+@import "../components/blog-post.css";
+@import "../components/project-card.css";

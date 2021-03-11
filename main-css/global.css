@@ -1,0 +1,28 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  margin: 0px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  margin: 0px;
+  background-image: url(../images/beach-background2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-overlay {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(228, 227, 227, 0.801);
+  opacity: 1;
+  z-index: 2;
+}

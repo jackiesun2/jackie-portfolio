@@ -1,0 +1,48 @@
+.main-title-mobile {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 220px;
+  margin-left: 20px;
+}
+
+.main-title-desktop {
+  display: none;
+  font-size: 60px;
+  margin-top: 310px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.main-subtitle {
+  font-size: 30;
+  font-weight: 400;
+  margin: 0px;
+  justify-self: center;
+  padding-bottom: 150px;
+  margin-left: 20px;
+}
+
+.main-container {
+  position: relative;
+}
+
+@media only screen and (min-width: 600px) {
+  .main-title-mobile {
+    display: none;
+  }
+  .main-title-desktop {
+    display: block;
+  }
+  .main-subtitle {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-title-desktop {
+    font-size: 80px;
+  }
+  .main-subtitle {
+    font-size: 40px;
+  }
+}
