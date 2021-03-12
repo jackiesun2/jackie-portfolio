@@ -1,0 +1,31 @@
+.blog-post {
+  margin-left: 20px;
+}
+
+.main-title.blog {
+  margin-top: 100px;
+}
+
+@media only screen and (min-width: 600px) {
+  .main-title.blog {
+    font-size: 60px;
+  }
+  .blog-title {
+    font-size: 25px;
+  }
+  .blog-subtitle {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-title.blog {
+    font-size: 80px;
+  }
+  .blog-title {
+    font-size: 35px;
+  }
+  .blog-subtitle {
+    font-size: 30px;
+  }
+}

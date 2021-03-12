@@ -1,48 +1,111 @@
-.main-title-mobile {
-  font-size: 40px;
-  font-weight: 600;
+.main-container.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px;
+  background-image: url(../images/beach-background2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-title-mobile.home {
   margin-top: 220px;
   margin-left: 20px;
 }
 
-.main-title-desktop {
-  display: none;
-  font-size: 60px;
+.main-title-desktop.home {
   margin-top: 310px;
   margin-left: 20px;
-  font-weight: 600;
 }
 
-.main-subtitle {
-  font-size: 30;
-  font-weight: 400;
+.main-subtitle.home {
   margin: 0px;
-  justify-self: center;
   padding-bottom: 150px;
   margin-left: 20px;
 }
 
-.main-container {
-  position: relative;
+.profile-picture {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-me-title {
+  font-size: 25px;
+}
+
+.about-me-text {
+  font-size: 15px;
+  margin: 20px 60px;
+  line-height: 27px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 375px) {
+  .main-title-mobile.home {
+    margin-top: 260px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
-  .main-title-mobile {
+  .main-title-mobile.home {
     display: none;
   }
-  .main-title-desktop {
+  .main-title-desktop.home {
     display: block;
   }
-  .main-subtitle {
+  .main-subtitle.home {
     font-size: 30px;
+  }
+  .about-me-title {
+    font-size: 30px;
+  }
+  .about-me-text {
+    font-size: 20px;
+    margin: 20px 80px;
+  }
+  .profile-picture {
+    height: 200px;
+    width: 200px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  .main-title-desktop {
+  .main-title-desktop.home {
     font-size: 80px;
+    margin-top: 350px;
   }
-  .main-subtitle {
+  .main-subtitle.home {
     font-size: 40px;
+  }
+  .about-me-text {
+    margin: 20px 150px;
+  }
+  .profile-picture {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .main-title-desktop.home {
+    font-size: 120px;
+    margin-top: 400px;
+  }
+  .main-subtitle.home {
+    font-size: 60px;
   }
 }

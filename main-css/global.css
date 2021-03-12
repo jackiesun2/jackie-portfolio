@@ -2,17 +2,8 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   margin: 0px;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  height: 100vh;
-  margin: 0px;
-  background-image: url(../images/beach-background2.jpg);
-  background-position: center;
-  background-size: cover;
+  background-color: rgb(52, 52, 52);
+  background-color: rgb(28, 28, 28);
 }
 
 .main-overlay {
@@ -25,4 +16,30 @@ main {
   background-color: rgba(228, 227, 227, 0.801);
   opacity: 1;
   z-index: 2;
+}
+
+.main-title-mobile {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.main-title-desktop {
+  display: none;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.main-subtitle {
+  font-size: 30;
+  font-weight: 400;
+  justify-self: center;
+}
+
+.main-container {
+  position: relative;
+  height: 100vh;
+}
+
+.main-title {
+  margin-left: 20px;
 }
