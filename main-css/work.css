@@ -1,3 +1,5 @@
+/* main container */
+
 .main-title.work {
   margin-top: 100px;
   text-align: center;
@@ -8,6 +10,8 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
+
+/* project container */
 
 .project-card {
   width: 100%;
@@ -28,12 +32,18 @@
   text-align: center;
 }
 
+/* media queries */
+
 @media only screen and (min-width: 600px) {
   .main-title.work {
     font-size: 60px;
   }
   .project-title {
     font-size: 25px;
+  }
+  .project-picture {
+    height: 200px;
+    width: 200px;
   }
 }
 
@@ -43,5 +53,9 @@
   }
   .project-title {
     font-size: 35px;
+  }
+  .project-picture {
+    height: 400px;
+    width: 400px;
   }
 }
