@@ -5,6 +5,13 @@ body {
   background-color: rgb(28, 28, 28);
 }
 
+/* container and hamburger menu styling */
+
+.main-container {
+  position: relative;
+  height: 100vh;
+}
+
 .main-overlay {
   position: absolute;
   display: none;
@@ -15,6 +22,12 @@ body {
   background-color: rgba(228, 227, 227, 0.801);
   opacity: 1;
   z-index: 2;
+}
+
+/* homepage styling */
+
+.main-title {
+  margin-left: 20px;
 }
 
 .main-title-mobile {
@@ -32,13 +45,4 @@ body {
   font-size: 30;
   font-weight: 400;
   justify-self: center;
-}
-
-.main-container {
-  position: relative;
-  height: 100vh;
-}
-
-.main-title {
-  margin-left: 20px;
 }

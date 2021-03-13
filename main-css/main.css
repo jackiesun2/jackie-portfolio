@@ -1,3 +1,5 @@
+/* homepage styling */
+
 .main-container.home {
   display: flex;
   flex-direction: column;
@@ -24,17 +26,19 @@
   margin-left: 20px;
 }
 
-.profile-picture {
-  height: 180px;
-  width: 180px;
-  border-radius: 50%;
-}
+/* about me section styling */
 
 .about-me {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+.profile-picture {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
 }
 
 .about-me-title {
@@ -53,10 +57,14 @@
   font-size: 20px;
 }
 
+/* credits to photographer for background picture */
+
 footer {
   margin: 30px 0px;
   font-size: 12px;
 }
+
+/* media queries  */
 
 @media only screen and (min-width: 375px) {
   .main-title-mobile.home {
